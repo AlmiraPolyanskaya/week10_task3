@@ -5,22 +5,13 @@
   margin-bottom: 40px;
 }
 
-.slider-container {
-  position: relative;
-  width: 900px;
-  height: 600px;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
 .slider {
   display: flex;
-  transition: transform 0.5s ease-in-out;
+  justify-content: center;
 }
 
-.slider img {
-  width: 100%;
-  height: 100%;
+.slider > img {
+  width: 50vw;
   object-fit: cover;
 }
 
